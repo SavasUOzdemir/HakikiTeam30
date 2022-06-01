@@ -17,7 +17,7 @@ public class TusaBasCoolKapat : MonoBehaviour
         if (basilmisobject.activeSelf == false)
         {
             StartCoroutine(ClickDelay());
-            settingsmenu.transform.LeanScale(new Vector3(0, 0, 0), 0.2f).setIgnoreTimeScale(true);
+            settingsmenu.transform.LeanScale(new Vector3(0, 0, 0), 0.2f);
 
         }
     }
@@ -25,7 +25,7 @@ public class TusaBasCoolKapat : MonoBehaviour
     {
         basilmamisobject.SetActive(false);
         basilmisobject.SetActive(true);
-        yield return new WaitForSecondsRealtime(0.2f);
+        yield return new WaitForSeconds(0.2f);
         basilmisobject.SetActive(false);
         basilmamisobject.SetActive(true);
     }
@@ -35,15 +35,6 @@ public class TusaBasCoolKapat : MonoBehaviour
         {
             StartCoroutine(ClickDelay());
             Application.Quit();
-        }
-    }
-    public void SettingsPopIn()
-    {
-        if (basilmisobject.activeSelf == false)
-        {
-            StartCoroutine(ClickDelay());
-            settingsmenu.transform.LeanScale(new Vector3(2, 2, 0), 0.2f).setIgnoreTimeScale(true);
-
         }
     }
 }
