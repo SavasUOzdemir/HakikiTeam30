@@ -155,6 +155,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 3
   UI: {fileID: 0}
+  canbir: {fileID: 0}
+  caniki: {fileID: 0}
+  canuc: {fileID: 0}
 --- !u!70 &8440787200284424572
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
