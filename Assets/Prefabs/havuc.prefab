@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 8440787200284424575}
   m_Layer: 7
   m_Name: havuc
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -614,6 +614,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8440787200284424570}
     m_Modifications:
+<<<<<<< Updated upstream
+=======
+    - target: {fileID: 932503437, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+>>>>>>> Stashed changes
     - target: {fileID: 473756460163927599, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -690,6 +697,57 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+    - target: {fileID: 1853799976636814871, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1853799976636814871, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1853799976636814871, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1853799976636814871, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1853799976636814871, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1853799976636814871, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108089179081041319, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108089179081041319, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108089179081041319, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108089179081041319, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108089179081041319, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108089179081041319, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+>>>>>>> Stashed changes
     - target: {fileID: 2194621540674349855, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -706,6 +764,33 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -75
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+    - target: {fileID: 2844435131181932696, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844435131181932696, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844435131181932696, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844435131181932696, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844435131181932696, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844435131181932696, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+>>>>>>> Stashed changes
     - target: {fileID: 3146889001624274057, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0.8
@@ -742,6 +827,33 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -18.661598
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+    - target: {fileID: 3355759908230415399, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355759908230415399, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355759908230415399, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355759908230415399, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355759908230415399, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355759908230415399, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+>>>>>>> Stashed changes
     - target: {fileID: 3937763050126271695, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
       propertyPath: m_fontSize
       value: 72
@@ -850,6 +962,33 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+    - target: {fileID: 6576626514231034922, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6576626514231034922, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6576626514231034922, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6576626514231034922, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6576626514231034922, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6576626514231034922, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+>>>>>>> Stashed changes
     - target: {fileID: 7367358600777880605, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -1038,6 +1177,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+    - target: {fileID: 8634141870377133590, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8634141870377133590, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8634141870377133590, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8634141870377133590, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8634141870377133590, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8634141870377133590, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8785003346584618923, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: player_
+      value: 
+      objectReference: {fileID: 8440787200284424569}
+>>>>>>> Stashed changes
     - target: {fileID: 8840406833198484877, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1

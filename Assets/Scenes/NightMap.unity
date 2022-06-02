@@ -2495,7 +2495,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 966597233}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5999994, y: 0, z: -0.81}
+  m_LocalPosition: {x: -0.5999994, y: 0, z: -0.51}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3673,6 +3673,33 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+    - target: {fileID: 3254866034950755462, guid: acfc6d5345f6fdd4ea76bdae0ed3c08c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254866034950755462, guid: acfc6d5345f6fdd4ea76bdae0ed3c08c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254866034950755462, guid: acfc6d5345f6fdd4ea76bdae0ed3c08c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254866034950755462, guid: acfc6d5345f6fdd4ea76bdae0ed3c08c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254866034950755462, guid: acfc6d5345f6fdd4ea76bdae0ed3c08c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254866034950755462, guid: acfc6d5345f6fdd4ea76bdae0ed3c08c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+>>>>>>> Stashed changes
     - target: {fileID: 3355759908508284179, guid: acfc6d5345f6fdd4ea76bdae0ed3c08c, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -3697,6 +3724,33 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+    - target: {fileID: 4128300030839441759, guid: acfc6d5345f6fdd4ea76bdae0ed3c08c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4128300030839441759, guid: acfc6d5345f6fdd4ea76bdae0ed3c08c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4128300030839441759, guid: acfc6d5345f6fdd4ea76bdae0ed3c08c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4128300030839441759, guid: acfc6d5345f6fdd4ea76bdae0ed3c08c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4128300030839441759, guid: acfc6d5345f6fdd4ea76bdae0ed3c08c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4128300030839441759, guid: acfc6d5345f6fdd4ea76bdae0ed3c08c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+>>>>>>> Stashed changes
     - target: {fileID: 5313003593983920882, guid: acfc6d5345f6fdd4ea76bdae0ed3c08c, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -3769,6 +3823,33 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+    - target: {fileID: 8003787451889714013, guid: acfc6d5345f6fdd4ea76bdae0ed3c08c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8003787451889714013, guid: acfc6d5345f6fdd4ea76bdae0ed3c08c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8003787451889714013, guid: acfc6d5345f6fdd4ea76bdae0ed3c08c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8003787451889714013, guid: acfc6d5345f6fdd4ea76bdae0ed3c08c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8003787451889714013, guid: acfc6d5345f6fdd4ea76bdae0ed3c08c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8003787451889714013, guid: acfc6d5345f6fdd4ea76bdae0ed3c08c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+>>>>>>> Stashed changes
     - target: {fileID: 8440787200284424569, guid: acfc6d5345f6fdd4ea76bdae0ed3c08c, type: 3}
       propertyPath: m_Name
       value: havuc
@@ -3779,7 +3860,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8440787200284424570, guid: acfc6d5345f6fdd4ea76bdae0ed3c08c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.44
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8440787200284424570, guid: acfc6d5345f6fdd4ea76bdae0ed3c08c, type: 3}
       propertyPath: m_LocalPosition.y

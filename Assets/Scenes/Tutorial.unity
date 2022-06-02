@@ -4594,6 +4594,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hedeftransform: {fileID: 1951557545}
+  player_: {fileID: 1789132296}
 --- !u!1001 &1644551694
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4663,6 +4664,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4634964957227796584, guid: a1c9769600d645943874beb3ad092918, type: 3}
   m_PrefabInstance: {fileID: 692697085350188953}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1789132296 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8440787200284424569, guid: acfc6d5345f6fdd4ea76bdae0ed3c08c, type: 3}
+  m_PrefabInstance: {fileID: 160332577}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1812856264
 GameObject:
