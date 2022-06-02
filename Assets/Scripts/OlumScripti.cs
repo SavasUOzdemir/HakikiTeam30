@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class OlumScripti : MonoBehaviour
 {
+    public GameObject player_;
     public GameObject olumMenusu;
        public void Olum()
     {
@@ -14,6 +15,8 @@ public class OlumScripti : MonoBehaviour
     {
         
         olumMenusu.SetActive(false);
+        Object.Destroy(player_, 0);
+
         SceneManager.LoadScene(0);
     }
 }

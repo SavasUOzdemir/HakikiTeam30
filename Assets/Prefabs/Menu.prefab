@@ -929,7 +929,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6460684313430978449}
         m_TargetAssemblyTypeName: TusaBasCoolKapat, Assembly-CSharp
-        m_MethodName: PlayGame
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1008,9 +1008,9 @@ RectTransform:
   m_Father: {fileID: 1847513459547200357}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 306.98}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3697662913316689344
@@ -1204,7 +1204,6 @@ GameObject:
   - component: {fileID: 7852243666230776842}
   - component: {fileID: 7720823843876394259}
   - component: {fileID: 3601833742709343685}
-  - component: {fileID: 7737993937372562564}
   m_Layer: 5
   m_Name: Menu
   m_TagString: Untagged
@@ -1299,21 +1298,6 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
---- !u!114 &7737993937372562564
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6762284378704755532}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 178cf53761d0b1b4682bd75f4357072b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  basilmisobject: {fileID: 0}
-  basilmamisobject: {fileID: 0}
-  settingsmenu: {fileID: 9046099334772541202}
 --- !u!1 &8264294076989263892
 GameObject:
   m_ObjectHideFlags: 0
