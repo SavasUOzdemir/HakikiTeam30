@@ -17,7 +17,7 @@ public class PlayerAttack : MonoBehaviour
    }
 
     private void Update() {
-        if (Input.GetMouseButton(0) && coolDownTimer > attackCooldown && playerMovement.canAttack())
+        if (Input.GetMouseButton(0) && coolDownTimer > attackCooldown && true/*playerMovement.canAttack()*/)
         {
             Attack();    
             coolDownTimer += Time.deltaTime;
