@@ -9,6 +9,7 @@ public class Play : MonoBehaviour
     public GameObject basilmamisobject;
     private void Awake()
     {
+        Time.timeScale = 1;
         basilmisobject.SetActive(false);
         basilmamisobject.SetActive(true);
     }
@@ -19,7 +20,9 @@ public class Play : MonoBehaviour
             StartCoroutine(ClickDelay());
 
         }
-        SceneManager.LoadScene(1);
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+
     }
     IEnumerator ClickDelay()
     {
