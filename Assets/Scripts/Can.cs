@@ -11,7 +11,32 @@ public class Can : MonoBehaviour
     public GameObject canbir;
     public GameObject caniki;
     public GameObject canuc;
+    //private void Awake()
+    //{
+    //    GetComponent<Collider2D>();
+    //}
 
+    //void OnTriggerEnter2D(Collider2D obje)
+    //{
+    //    if (obje.CompareTag("Dusman"))
+    //    {
+    //        {
+    //            health--;
+    //            this.transform.position = new Vector2(-4.43f, -1.15f);
+    //            if (health == 2)
+    //            {
+    //                canuc.SetActive(false);
+
+    //            }
+    //            else if (health == 1)
+    //            {
+    //                caniki.SetActive(false);
+    //            }
+
+
+    //        }
+    //    }
+    //}
     private void Update()
     {
         if (health == 3)
