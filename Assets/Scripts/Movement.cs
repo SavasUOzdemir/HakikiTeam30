@@ -11,8 +11,11 @@ public class Movement : MonoBehaviour
     public TMP_Text paraMetni;
     public TMP_Text gemMetni;
     public TMP_Text projektaylMetni;
+<<<<<<< Updated upstream
 
+=======
     SpriteRenderer spriteRenderer_;
+>>>>>>> Stashed changes
     Rigidbody2D rb;
     Animator anim;
     float speed = 5f;
@@ -21,7 +24,11 @@ public class Movement : MonoBehaviour
     bool ikiZiplama = false;
     public Transform zeminKontrolNoktasi;
     public LayerMask zeminLayer;
-   
+    
+<<<<<<< Updated upstream
+=======
+    
+>>>>>>> Stashed changes
     private void Awake() 
     {
         rb = GetComponent<Rigidbody2D>();
