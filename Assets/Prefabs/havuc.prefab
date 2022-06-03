@@ -377,19 +377,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
   baslangicpara: 0
   baslangicgem: 0
   baslangicProjectile: 3
   paraMetni: {fileID: 5566316278785898742}
   gemMetni: {fileID: 320282493315919179}
   projektaylMetni: {fileID: 4301070794508078772}
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
   ziplamaGucu: 19
   zeminKontrolNoktasi: {fileID: 8440787199406103323}
@@ -570,11 +564,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 1
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
   m_BlockingObjects: 0
-=======
-  m_BlockingObjects: 1
->>>>>>> Stashed changes
 =======
   m_BlockingObjects: 1
 >>>>>>> Stashed changes
@@ -657,10 +647,7 @@ PrefabInstance:
       value: UI_Canvas
       objectReference: {fileID: 0}
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
     - target: {fileID: 1853799976636814871, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -780,33 +767,6 @@ PrefabInstance:
     - target: {fileID: 6576626514231034922, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
-      objectReference: {fileID: 0}
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
-    - target: {fileID: 7809323953481108485, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7809323953481108485, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7809323953481108485, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7809323953481108485, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7809323953481108485, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 113
-      objectReference: {fileID: 0}
-    - target: {fileID: 7809323953481108485, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -91.48999
       objectReference: {fileID: 0}
 >>>>>>> Stashed changes
     - target: {fileID: 8046936175596046101, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
@@ -894,10 +854,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
     - target: {fileID: 8634141870377133590, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -922,9 +879,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
     - target: {fileID: 8785003346584618923, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
       propertyPath: player_
@@ -933,10 +887,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 --- !u!114 &320282493315919179 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 320282493056932991, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
@@ -948,9 +899,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 --- !u!1 &817855599992545229 stripped
 GameObject:
@@ -958,10 +906,7 @@ GameObject:
   m_PrefabInstance: {fileID: 330330420}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 --- !u!114 &4301070794508078772 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4301070794295246720, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
@@ -984,9 +929,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 --- !u!224 &8046936175368533537 stripped
 RectTransform:

@@ -11,11 +11,7 @@ public class Movement : MonoBehaviour
     public TMP_Text paraMetni;
     public TMP_Text gemMetni;
     public TMP_Text projektaylMetni;
-<<<<<<< Updated upstream
 
-=======
-    SpriteRenderer spriteRenderer_;
->>>>>>> Stashed changes
     Rigidbody2D rb;
     Animator anim;
     float speed = 5f;
@@ -25,15 +21,10 @@ public class Movement : MonoBehaviour
     public Transform zeminKontrolNoktasi;
     public LayerMask zeminLayer;
     
-<<<<<<< Updated upstream
-=======
-    
->>>>>>> Stashed changes
     private void Awake() 
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        spriteRenderer_ = GetComponent<SpriteRenderer>();
     }
 
     void Start()
@@ -86,14 +77,11 @@ public class Movement : MonoBehaviour
         Vector2 geciciScale = transform.localScale;
         if (rb.velocity.x>0)
         {
-            spriteRenderer_.flipX = false;
-
-            //geciciScale.x = 0.7f;
+            geciciScale.x = 0.7f;
         }
         else if(rb.velocity.x<0)
         {
-            spriteRenderer_.flipX=true;
-            //geciciScale.x = -0.7f;
+            geciciScale.x = -0.7f;
         }
         transform.localScale = geciciScale;
     }

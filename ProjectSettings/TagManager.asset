@@ -9,12 +9,6 @@ TagManager:
   - Gem
   - Puan
   - Meyve
-<<<<<<< Updated upstream
-=======
-  - Damage
-  - Dusman
-  - HavucSilah
->>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
