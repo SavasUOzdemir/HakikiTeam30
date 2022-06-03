@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class para : MonoBehaviour {
+public class Para : MonoBehaviour {
     
-    public static int toplanan_para = 0; 
 
         private void Awake() {
             GetComponent<Collider2D>().isTrigger = true;
@@ -16,8 +15,6 @@ public class para : MonoBehaviour {
         {
             if (obje.CompareTag("Player"))
             {
-                toplanan_para++;
-                Debug.Log("toplam para: " + toplanan_para + " tl.");
                 Destroy(gameObject);
             }
         }

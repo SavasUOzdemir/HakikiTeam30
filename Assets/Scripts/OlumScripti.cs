@@ -7,6 +7,7 @@ public class OlumScripti : MonoBehaviour
 {
     public GameObject player_;
     public GameObject olumMenusu;
+
        public void Olum()
     {
         olumMenusu.SetActive(true);

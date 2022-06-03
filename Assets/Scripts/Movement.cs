@@ -1,9 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Movement : MonoBehaviour
 {
+    public int baslangicpara = 0;
+    public int baslangicgem = 0;
+    public int baslangicProjectile = 3;
+    public TMP_Text paraMetni;
+    public TMP_Text gemMetni;
+    public TMP_Text projektaylMetni;
 
     Rigidbody2D rb;
     Animator anim;
@@ -13,7 +20,7 @@ public class Movement : MonoBehaviour
     bool ikiZiplama = false;
     public Transform zeminKontrolNoktasi;
     public LayerMask zeminLayer;
-
+    
     private void Awake() 
     {
         rb = GetComponent<Rigidbody2D>();
@@ -22,7 +29,9 @@ public class Movement : MonoBehaviour
 
     void Start()
     {
-        
+        paraMetni.text = baslangicpara.ToString();
+        gemMetni.text = baslangicgem.ToString();
+        projektaylMetni.text = baslangicProjectile.ToString();
     }
 
     void Update()
@@ -76,4 +85,26 @@ public class Movement : MonoBehaviour
         }
         transform.localScale = geciciScale;
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Para"))
+        {
+            baslangicpara++;
+            paraMetni.text = baslangicpara.ToString();
+
+        }
+        else if (collision.CompareTag("Gem"))
+        {
+            baslangicgem++;
+            gemMetni.text = baslangicgem.ToString();
+
+        }
+        else if (collision.CompareTag("Meyve"))
+        {
+            baslangicProjectile = 3;
+            projektaylMetni.text = baslangicProjectile.ToString();
+
+        }
+    }
+
 }

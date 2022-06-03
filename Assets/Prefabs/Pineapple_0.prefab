@@ -10,9 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 8906171167902848467}
   - component: {fileID: 8334845072184299769}
+  - component: {fileID: 8913952388748102070}
+  - component: {fileID: 8103527367976230806}
   m_Layer: 0
   m_Name: Pineapple_0
-  m_TagString: Untagged
+  m_TagString: Meyve
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84,3 +86,48 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8913952388748102070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 409470413091476409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab081987763695649b69cc9b77a2393b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!68 &8103527367976230806
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 409470413091476409}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 0.05641088, y: -0.06535792}
+  - {x: 0.041974306, y: -0.090476416}
+  - {x: -0.03832555, y: -0.09169941}
+  - {x: -0.058917522, y: -0.06634113}
+  - {x: -0.0604558, y: -0.0049638674}
+  - {x: -0.04096341, y: 0.028489597}
+  - {x: -0.040352583, y: 0.06907928}
+  - {x: -0.010875225, y: 0.08210683}
+  - {x: 0.010094643, y: 0.082305446}
+  - {x: 0.041153908, y: 0.07259253}
+  - {x: 0.040340185, y: 0.03999509}
+  - {x: 0.05696416, y: -0.0038046837}
+  - {x: 0.0591785, y: -0.062648974}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0

@@ -10,9 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 7724540731618371493}
   - component: {fileID: 737695197280169473}
+  - component: {fileID: 4755973758849890228}
+  - component: {fileID: 7651766092083667988}
   m_Layer: 0
   m_Name: cherry-1
-  m_TagString: Untagged
+  m_TagString: Meyve
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84,3 +86,31 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4755973758849890228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896182026790897646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab081987763695649b69cc9b77a2393b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &7651766092083667988
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896182026790897646}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.02, y: 0.01}
+  serializedVersion: 2
+  m_Radius: 0.09
