@@ -46,6 +46,9 @@ public class Ates : MonoBehaviour
 
             }
         }
-        else { Destroy(this.gameObject); }
+        else 
+        { 
+            Destroy(this.gameObject); 
+        }
     }
 }

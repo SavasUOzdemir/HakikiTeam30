@@ -8,6 +8,9 @@ TagManager:
   - Coin
   - Gem
   - Meyve
+  - ProjectileSource
+  - HavucSilah
+  - Dusman
   layers:
   - Default
   - TransparentFX

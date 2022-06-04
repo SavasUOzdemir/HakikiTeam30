@@ -17,4 +17,20 @@ public class Projectile_script : MonoBehaviour
         else {  rb.velocity = -transform.right * hiz; } 
     }
 
+
+
+    private void Awake()
+    {
+        GetComponent<Collider2D>().isTrigger = true;
+    }
+
+
+
+    void OnTriggerEnter2D(Collider2D obje)
+    {
+        if (obje.CompareTag("Dusman"))
+        {
+            Destroy(gameObject);
+        }
+    }
 }

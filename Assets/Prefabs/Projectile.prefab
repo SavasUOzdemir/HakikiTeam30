@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 1063658781676394963}
   - component: {fileID: 1063658781676394962}
   - component: {fileID: 1063658781676394973}
-  - component: {fileID: 4607500106539460364}
   - component: {fileID: 7755103186059317963}
+  - component: {fileID: 6777030109679428430}
   m_Layer: 0
   m_Name: Projectile
-  m_TagString: Untagged
+  m_TagString: HavucSilah
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 1063658781676394972}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.32, y: -1.57, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: -2117317611
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 0869b1e96aac6d34cb086976dc7af826, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 25f39a7a6bed0d645901e8d43a84db09, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -99,16 +99,31 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.0001
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!60 &4607500106539460364
+--- !u!114 &7755103186059317963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063658781676394972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b884412d2758a1c4bb67cd301d4481c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hiz: 15
+  rb: {fileID: 1063658781676394973}
+  sr: {fileID: 8440787200284424571, guid: acfc6d5345f6fdd4ea76bdae0ed3c08c, type: 3}
+--- !u!60 &6777030109679428430
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -125,7 +140,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 0.66}
+    oldSize: {x: 3, y: 2}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -133,42 +148,15 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.59999996, y: -0.11}
-      - {x: 0.59999996, y: 0.11}
-      - {x: 0.58, y: 0.16}
-      - {x: 0.45, y: 0.32}
-      - {x: 0.39, y: 0.32999998}
-      - {x: -0.11, y: 0.32999998}
-      - {x: -0.21, y: 0.31}
-      - {x: -0.44, y: 0.25}
-      - {x: -0.47, y: 0.19}
-      - {x: -0.37, y: 0.12}
-      - {x: -0.59999996, y: 0.07}
-      - {x: -0.59999996, y: -0.01}
-      - {x: -0.48, y: -0.06}
-      - {x: -0.41, y: -0.17}
-      - {x: -0.37, y: -0.22}
-      - {x: -0.32999998, y: -0.24}
-      - {x: -0.29999998, y: -0.26999998}
-      - {x: 0.02, y: -0.32}
-      - {x: 0.19, y: -0.32999998}
-      - {x: 0.32999998, y: -0.32999998}
-      - {x: 0.39999998, y: -0.29999998}
-      - {x: 0.45999998, y: -0.26999998}
-      - {x: 0.59, y: -0.14999999}
---- !u!114 &7755103186059317963
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1063658781676394972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b884412d2758a1c4bb67cd301d4481c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hiz: 15
-  rb: {fileID: 1063658781676394973}
-  Havuc: {fileID: 8440787200284424569, guid: acfc6d5345f6fdd4ea76bdae0ed3c08c, type: 3}
-  sr: {fileID: 8440787200284424571, guid: acfc6d5345f6fdd4ea76bdae0ed3c08c, type: 3}
+    - - {x: -0.38302404, y: 0.5700579}
+      - {x: -0.5420217, y: 0.3810034}
+      - {x: -0.8172946, y: 0.42859784}
+      - {x: -0.87072086, y: 0.28424823}
+      - {x: -0.84674823, y: -0.14434963}
+      - {x: -0.54366547, y: -0.3179813}
+      - {x: -0.3112982, y: -0.45702124}
+      - {x: 0.6645579, y: -0.14931583}
+      - {x: 1.1494877, y: 0.023800718}
+      - {x: 1.1659614, y: 0.13824661}
+      - {x: 0.9816803, y: 0.21198742}
+      - {x: 0.26472664, y: 0.44777572}
