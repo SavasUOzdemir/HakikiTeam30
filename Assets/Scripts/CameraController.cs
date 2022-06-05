@@ -13,11 +13,16 @@ public class CameraController : MonoBehaviour
         GameObject[] playerObject = GameObject.FindGameObjectsWithTag("Player");
         if (playerObject.Length != 0)
         {
-            transform.position = new Vector3(hedeftransform.position.x, 2f, transform.position.z);
+            transform.position = new Vector3(hedeftransform.position.x, hedeftransform.position.y, transform.position.z);
 
             if (transform.position.x < 0)
             {
-                transform.position = new Vector3(0, 2f, transform.position.z);
+                transform.position = new Vector3(0, transform.position.y, transform.position.z);
+            }
+
+            if (transform.position.y>0)
+            {
+                transform.position = new Vector3 (transform.position.x, 0, transform.position.z);
             }
         }
         else { return; }

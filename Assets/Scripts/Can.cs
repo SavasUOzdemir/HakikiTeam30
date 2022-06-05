@@ -45,7 +45,7 @@ public class Can : MonoBehaviour
             caniki.SetActive(true);
             canuc.SetActive(true);
         }
-        if (transform.position.y < -2.5f)
+        /*if (transform.position.y < -2.5f)
         {
             health--;
             this.transform.position = new Vector2(-4.43f, -1.15f);
@@ -59,12 +59,12 @@ public class Can : MonoBehaviour
                 caniki.SetActive(false);
             }
 
-
-        }
+            
+        }*/
         if (health == 0)
         {
             canbir.SetActive(false);
-            print("Rip havuç");
+            print("Rip havuï¿½");
             Time.timeScale = 0;
             UI.GetComponent<OlumScripti>().Olum();
         }
