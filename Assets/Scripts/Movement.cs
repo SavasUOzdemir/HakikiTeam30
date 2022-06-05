@@ -7,7 +7,6 @@ public class Movement : MonoBehaviour
 {
     public int baslangicpara = 0;
     public int baslangicgem = 0;
-    public int baslangicProjectile = 3;
     public TMP_Text paraMetni;
     public TMP_Text gemMetni;
     public TMP_Text projektaylMetni;
@@ -21,6 +20,7 @@ public class Movement : MonoBehaviour
     bool ikiZiplama = false;
     public Transform zeminKontrolNoktasi;
     public LayerMask zeminLayer;
+    public Ates ates_;
     
     
     private void Awake() 
@@ -34,7 +34,7 @@ public class Movement : MonoBehaviour
     {
         paraMetni.text = baslangicpara.ToString();
         gemMetni.text = baslangicgem.ToString();
-        projektaylMetni.text = baslangicProjectile.ToString();
+        projektaylMetni.text = ates_.projectilesayisi.ToString();
     }
 
     void Update()
@@ -42,6 +42,8 @@ public class Movement : MonoBehaviour
         hareket();
         ziplama();
         yonDegistir();
+        projektaylMetni.text = ates_.projectilesayisi.ToString();
+
     }
 
     private void hareket()
@@ -107,8 +109,8 @@ public class Movement : MonoBehaviour
         }
         else if (collision.CompareTag("Meyve"))
         {
-            baslangicProjectile = 3;
-            projektaylMetni.text = baslangicProjectile.ToString();
+            ates_.projectilesayisi = 3;
+            projektaylMetni.text = ates_.projectilesayisi.ToString();
 
         }
     }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Projectile_script : MonoBehaviour
 {
@@ -28,7 +29,7 @@ public class Projectile_script : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D obje)
     {
-        if (obje.CompareTag("Dusman"))
+        if (obje.CompareTag("Dusman") || obje.gameObject.layer==6)
         {
             Destroy(gameObject);
         }

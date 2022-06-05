@@ -260,6 +260,7 @@ MonoBehaviour:
   canbir: {fileID: 5176652032517358469}
   caniki: {fileID: 1313138884352553364}
   canuc: {fileID: 5285179326779220189}
+  sr: {fileID: 8440787200284424571}
 --- !u!70 &8440787200284424572
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -311,7 +312,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baslangicpara: 0
   baslangicgem: 0
-  baslangicProjectile: 3
   paraMetni: {fileID: 5566316278785898742}
   gemMetni: {fileID: 320282493315919179}
   projektaylMetni: {fileID: 4301070794508078772}
@@ -320,6 +320,7 @@ MonoBehaviour:
   zeminLayer:
     serializedVersion: 2
     m_Bits: 64
+  ates_: {fileID: 0}
 --- !u!114 &1951557552
 MonoBehaviour:
   m_ObjectHideFlags: 0
