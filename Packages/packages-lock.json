@@ -1,9 +1,9 @@
 {
   "dependencies": {
     "com.lootlocker.lootlockersdk": {
-      "version": "file:C:/Users/user/Desktop/unity-sdk-main",
+      "version": "file:unity-sdk-main",
       "depth": 0,
-      "source": "local",
+      "source": "embedded",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "2.0.0"
       }
