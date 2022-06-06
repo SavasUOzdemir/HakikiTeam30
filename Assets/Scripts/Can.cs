@@ -18,6 +18,7 @@ public class Can : MonoBehaviour
     public Canvas canvas_;
     public LeaderboardController leaderboard;
     bool cansubmitted = false;
+    public GameObject RespawnObj;
 
     private void Awake()
     {
@@ -25,8 +26,6 @@ public class Can : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         movement_ = havuc_.GetComponent<Movement>();
         timer = canvas_.GetComponent<Timer>();
-
-
     }
 
 
@@ -100,6 +99,7 @@ public class Can : MonoBehaviour
             {
                 health--;
                 StartCoroutine(DeathFlash());
+                this.transform.position = RespawnObj.transform.position;
             }
         }
     }
