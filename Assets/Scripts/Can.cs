@@ -17,6 +17,10 @@ public class Can : MonoBehaviour
     public GameObject havuc_;
     public Canvas canvas_;
     public LeaderboardController leaderboard;
+<<<<<<< Updated upstream
+=======
+    bool cansubmitted = false;
+>>>>>>> Stashed changes
 
     private void Awake()
     {
@@ -25,6 +29,10 @@ public class Can : MonoBehaviour
         movement_ = havuc_.GetComponent<Movement>();
         timer = canvas_.GetComponent<Timer>();
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
     }
 
 
@@ -58,6 +66,7 @@ public class Can : MonoBehaviour
             canbir.SetActive(true);
             caniki.SetActive(true);
             canuc.SetActive(true);
+            cansubmitted = false;
         }
 
         else if (health == 2)
@@ -77,7 +86,18 @@ public class Can : MonoBehaviour
             canbir.SetActive(false);
             movement_.score +=Mathf.RoundToInt(timer.sure);
             timer.sure = 0f;
+<<<<<<< Updated upstream
             StartCoroutine (submitScore());
+=======
+            if (cansubmitted == false) {
+                StartCoroutine(submitScore());
+                cansubmitted = true;
+            }
+            else
+            {
+                return;
+            };
+>>>>>>> Stashed changes
             Time.timeScale = 0;
             UI.GetComponent<OlumScripti>().Olum();
         }

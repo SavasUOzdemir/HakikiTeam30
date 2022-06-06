@@ -17959,11 +17959,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7522541797163027407, guid: 9bcdefd98eacdac418e90cbb5ee86581, type: 3}
   m_PrefabInstance: {fileID: 958026607}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 --- !u!4 &972269486 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7370713162620871048, guid: b18d74f51b3b42341bd1138a3eca591b, type: 3}
   m_PrefabInstance: {fileID: 262085670}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!4 &999372448 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7724540731618371493, guid: 2d4ad13f8fa49874d893d807a5f587d2, type: 3}

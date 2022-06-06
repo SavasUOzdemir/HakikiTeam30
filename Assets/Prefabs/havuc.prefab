@@ -1137,6 +1137,7 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8440787200284424570}
     m_Modifications:
+<<<<<<< Updated upstream
     - target: {fileID: 2080742177, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -1221,6 +1222,44 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+=======
+    - target: {fileID: 494199886, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 494199890, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 494199890, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 494199890, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3204915089841742841, guid: ebe461ef97be305418ad4136cc935cd5, type: 3}
+    - target: {fileID: 494199890, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 494199890, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetPlayerName
+      objectReference: {fileID: 0}
+    - target: {fileID: 494199890, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayerManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 494199890, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 817855600220106489, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
+      propertyPath: m_Name
+      value: UI_Canvas
+      objectReference: {fileID: 0}
+>>>>>>> Stashed changes
     - target: {fileID: 1853799976636814871, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1269,6 +1308,7 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 2194621540674349855, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -1285,6 +1325,8 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -75
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     - target: {fileID: 2301048346920857990, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
       propertyPath: playerobject
       value: 
@@ -1313,6 +1355,7 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 3146889001624274057, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0.8
@@ -1349,6 +1392,8 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -18.661598
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     - target: {fileID: 3355759908230415399, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1373,6 +1418,7 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 3419419068518623053, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1481,6 +1527,8 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -240.7167
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     - target: {fileID: 5063736345450921847, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
       propertyPath: havuc_
       value: 
@@ -1489,6 +1537,7 @@ PrefabInstance:
       propertyPath: movement_
       value: 
       objectReference: {fileID: 8440787200284424575}
+<<<<<<< Updated upstream
     - target: {fileID: 5259321904915685625, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -1533,6 +1582,8 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     - target: {fileID: 6576626514231034922, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1557,6 +1608,7 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 7367358600777880605, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -1657,6 +1709,8 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     - target: {fileID: 8046936175596046101, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1830,11 +1884,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f4ee5246e4bf614cb7baf8a0185b739, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
 --- !u!224 &130326465078992590 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 130326464752906234, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
   m_PrefabInstance: {fileID: 330330420}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!114 &320282493315919179 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 320282493056932991, guid: 8f68ed37a880cd840a9c9508a32a837e, type: 3}
