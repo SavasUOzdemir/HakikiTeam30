@@ -7,7 +7,7 @@ using System;
 public class Timer : MonoBehaviour
 {
    
-    float sure;
+public float sure;
     public int baslangicSaniyeSure;
     public TMP_Text sureMetni;
     public bool sureAktif = true;
@@ -22,7 +22,7 @@ public class Timer : MonoBehaviour
 
     // Update is called once per frame
 
-    void Update()
+    public void Update()
     {
         //if (sureAktif==true)
         //{
@@ -34,7 +34,13 @@ public class Timer : MonoBehaviour
             }
         //}
         TimeSpan sure_ = TimeSpan.FromSeconds(sure);
-        sureMetni.text = sure_.Minutes.ToString() + ":" + sure_.Seconds.ToString();
+        if (sure_.Seconds <= 9)
+        {
+            sureMetni.text = sure_.Minutes.ToString() + ":0" + sure_.Seconds.ToString();
 
+        }
+        else { 
+        sureMetni.text = sure_.Minutes.ToString() + ":" + sure_.Seconds.ToString();
+        }
     }
 }

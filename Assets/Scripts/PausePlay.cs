@@ -15,16 +15,16 @@ public class PausePlay : MonoBehaviour
     {
         if (is_paused == true)
         {
+            is_paused = false;
             Pausepanel.SetActive(false);
 
             Time.timeScale = 1;
-            is_paused = false;
         }
         else
         {
+            is_paused = true;
             Pausepanel.SetActive(true);
             Time.timeScale = 0;
-            is_paused = true;
         }
 
     }
