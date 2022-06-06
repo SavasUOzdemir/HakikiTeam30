@@ -1,15 +1,9 @@
 {
   "dependencies": {
     "com.lootlocker.lootlockersdk": {
-<<<<<<< Updated upstream
       "version": "file:unity-sdk-main",
       "depth": 0,
       "source": "embedded",
-=======
-      "version": "file:C:/Users/user/Desktop/unity-sdk-main",
-      "depth": 0,
-      "source": "local",
->>>>>>> Stashed changes
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "2.0.0"
       }
