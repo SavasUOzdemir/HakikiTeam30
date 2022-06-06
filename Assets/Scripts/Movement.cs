@@ -28,6 +28,7 @@ public class Movement : MonoBehaviour
     
     private void Awake() 
     {
+
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         spriteRenderer_ = GetComponent<SpriteRenderer>();
@@ -64,6 +65,8 @@ public class Movement : MonoBehaviour
         
         if (Input.GetButtonDown("Jump"))
         {
+            AudioManagerScript.PlaySound("jump");
+
             if (yerdeMi == true)
             {
                 ikiZiplama = true;
@@ -100,6 +103,7 @@ public class Movement : MonoBehaviour
     {
         if (collision.CompareTag("Coin"))
         {
+            AudioManagerScript.PlaySound("coin");
             baslangicpara++;
             paraMetni.text = baslangicpara.ToString();
             score += 10;
@@ -115,6 +119,7 @@ public class Movement : MonoBehaviour
         }
         else if (collision.CompareTag("Meyve"))
         {
+            AudioManagerScript.PlaySound("MeyveToplama");
             ates_.projectilesayisi = 3;
             can_.health++;
             projektaylMetni.text = ates_.projectilesayisi.ToString();
