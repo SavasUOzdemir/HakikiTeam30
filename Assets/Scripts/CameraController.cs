@@ -50,7 +50,7 @@ public class CameraController : MonoBehaviour
                 transform.position = new Vector3(0, transform.position.y, transform.position.z);
             }
 
-            if (transform.position.y != 0)
+            if (transform.position.y > 0)
             {
                 transform.position = new Vector3(transform.position.x, 0, transform.position.z);
             }
