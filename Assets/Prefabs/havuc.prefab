@@ -265,7 +265,6 @@ MonoBehaviour:
   timer: {fileID: 10337319974687839}
   havuc_: {fileID: 8440787200284424569}
   canvas_: {fileID: 8160890699638177965}
-  leaderboard: {fileID: 4659641465145849351, guid: a23045cc0b607524b98196ec613e34ab, type: 3}
   RespawnObj: {fileID: 4698214127622574189, guid: 5407d769072b42242a7ad53998a06fc7, type: 3}
 --- !u!70 &8440787200284424572
 CapsuleCollider2D:
@@ -321,7 +320,7 @@ MonoBehaviour:
   paraMetni: {fileID: 5566316278785898742}
   gemMetni: {fileID: 320282493315919179}
   projektaylMetni: {fileID: 4301070794508078772}
-  score: 500
+  score: 840
   ziplamaGucu: 12
   zeminKontrolNoktasi: {fileID: 8440787199406103323}
   zeminLayer:

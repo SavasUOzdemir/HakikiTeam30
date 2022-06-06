@@ -89,13 +89,10 @@ public class Movement : MonoBehaviour
         if (rb.velocity.x>0)
         {
             spriteRenderer_.flipX = false;
-
-            //geciciScale.x = 0.7f;
         }
         else if(rb.velocity.x<0)
         {
             spriteRenderer_.flipX=true;
-            //geciciScale.x = -0.7f;
         }
         transform.localScale = geciciScale;
     }
@@ -114,18 +111,15 @@ public class Movement : MonoBehaviour
             baslangicgem++;
             gemMetni.text = baslangicgem.ToString();
             score += 50;
-
-
         }
         else if (collision.CompareTag("Meyve"))
         {
             AudioManagerScript.PlaySound("MeyveToplama");
             ates_.projectilesayisi = 3;
+            if(can_.health != 3)
             can_.health++;
             projektaylMetni.text = ates_.projectilesayisi.ToString();
             score += 5;
-
-
         }
     }
 

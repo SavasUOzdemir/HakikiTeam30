@@ -16,8 +16,6 @@ public class Can : MonoBehaviour
     public Timer timer;
     public GameObject havuc_;
     public Canvas canvas_;
-    public LeaderboardController leaderboard;
-    bool cansubmitted = false;
     public GameObject RespawnObj;
 
     private void Awake()
@@ -47,8 +45,7 @@ public class Can : MonoBehaviour
 
     void Update()
     {
-        CanManager();
-        
+        CanManager();        
     }
 
 
@@ -59,7 +56,6 @@ public class Can : MonoBehaviour
             canbir.SetActive(true);
             caniki.SetActive(true);
             canuc.SetActive(true);
-            cansubmitted = false;
         }
 
         else if (health == 2)
@@ -79,14 +75,6 @@ public class Can : MonoBehaviour
             canbir.SetActive(false);
             movement_.score +=Mathf.RoundToInt(timer.sure);
             timer.sure = 0f;
-            if (cansubmitted == false) {
-                StartCoroutine(submitScore());
-                cansubmitted = true;
-            }
-            else
-            {
-                return;
-            };
             Time.timeScale = 0;
             UI.GetComponent<OlumScripti>().Olum();
         }
@@ -103,10 +91,7 @@ public class Can : MonoBehaviour
             }
         }
     }
-    public IEnumerator submitScore()
-    {
-        yield return leaderboard.SubmitScoreRoutine(movement_.score);
-    }
+    
 
     IEnumerator DeathFlash()
     {

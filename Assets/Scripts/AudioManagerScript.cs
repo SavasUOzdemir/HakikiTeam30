@@ -5,11 +5,12 @@ using UnityEngine;
 public class AudioManagerScript : MonoBehaviour
 {
     public static AudioClip jumpSound, coinSound, meyveSound;
-    static AudioSource audioSrc;
+    public static AudioSource audioSrc;
     private void Start() {
         jumpSound = Resources.Load<AudioClip> ("jump");
         coinSound = Resources.Load<AudioClip> ("coin");
-        meyveSound = Resources.Load<AudioClip> ("MeyveToplama");
+        //meyveSound = Resources.Load<AudioClip> ("MeyveToplama");
+        meyveSound = (AudioClip)Resources.Load ("Assets/Sounds/Effects/MeyveToplama");
         audioSrc = GetComponent<AudioSource>();
     }
 
