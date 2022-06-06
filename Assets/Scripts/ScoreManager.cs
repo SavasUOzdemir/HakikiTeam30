@@ -7,15 +7,17 @@ using TMPro;
 public class ScoreManager : MonoBehaviour
 {
     public TMP_Text scoreText;
-    int score = 0;
-        void Start()
-    {
-        scoreText.text = "SKOR: "+ " "+score.ToString();
-    }
+    public GameObject havuc_;
+    public Movement movement_;
 
-    // Update is called once per frame
+    void Awake()
+    {
+        movement_ = havuc_.GetComponent<Movement>();
+    }
+     // Update is called once per frame
     void Update()
     {
-        
+        scoreText.text = "SKOR: " + movement_.score.ToString();
     }
+    
 }

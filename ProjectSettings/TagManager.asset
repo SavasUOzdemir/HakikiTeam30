@@ -12,6 +12,9 @@ TagManager:
   - HavucSilah
   - Dusman
   - zemin
+  - dusupolmenoktasi
+  - LeaderboardController
+  - PlayerManager
   layers:
   - Default
   - TransparentFX

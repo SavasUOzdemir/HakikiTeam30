@@ -7,20 +7,23 @@ public class Movement : MonoBehaviour
 {
     public int baslangicpara = 0;
     public int baslangicgem = 0;
-    public int baslangicProjectile = 3;
     public TMP_Text paraMetni;
     public TMP_Text gemMetni;
     public TMP_Text projektaylMetni;
+    public int score = 0;
+
 
     SpriteRenderer spriteRenderer_;
     Rigidbody2D rb;
     Animator anim;
-    float speed = 5f;
+    readonly float speed = 5f;
     public float ziplamaGucu = 9.5f;
     bool yerdeMi = false;
     bool ikiZiplama = false;
     public Transform zeminKontrolNoktasi;
     public LayerMask zeminLayer;
+    public Ates ates_;
+    public Can can_;
     
     
     private void Awake() 
@@ -34,7 +37,7 @@ public class Movement : MonoBehaviour
     {
         paraMetni.text = baslangicpara.ToString();
         gemMetni.text = baslangicgem.ToString();
-        projektaylMetni.text = baslangicProjectile.ToString();
+        projektaylMetni.text = ates_.projectilesayisi.ToString();
     }
 
     void Update()
@@ -42,6 +45,8 @@ public class Movement : MonoBehaviour
         hareket();
         ziplama();
         yonDegistir();
+        projektaylMetni.text = ates_.projectilesayisi.ToString();
+
     }
 
     private void hareket()
@@ -97,18 +102,24 @@ public class Movement : MonoBehaviour
         {
             baslangicpara++;
             paraMetni.text = baslangicpara.ToString();
+            score += 10;
 
         }
         else if (collision.CompareTag("Gem"))
         {
             baslangicgem++;
             gemMetni.text = baslangicgem.ToString();
+            score += 50;
+
 
         }
         else if (collision.CompareTag("Meyve"))
         {
-            baslangicProjectile = 3;
-            projektaylMetni.text = baslangicProjectile.ToString();
+            ates_.projectilesayisi = 3;
+            can_.health++;
+            projektaylMetni.text = ates_.projectilesayisi.ToString();
+            score += 5;
+
 
         }
     }
